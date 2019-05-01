@@ -1,9 +1,12 @@
 - name: Retributor Armour
   type: base
   price: 7.40
+  color: '#C39E81'
 - name: Leadbelcher
   type: base
   price: 5.40
+  color: '#888D8F'
 - name: Abaddon Black
   type: base
   price: 5.40
+  color: '#231F20'
