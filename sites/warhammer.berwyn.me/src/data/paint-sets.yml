@@ -1,0 +1,5 @@
+- name: Citadel Base Paint Set
+  price: 58.00
+  paints:
+    - Leadbelcher
+    - Abaddon Black
