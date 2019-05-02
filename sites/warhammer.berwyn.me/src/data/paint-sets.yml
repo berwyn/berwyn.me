@@ -2,9 +2,27 @@
   price: 58.00
   paints:
     - Leadbelcher
+    - Macragge Blue
+    - Waaagh! Flesh
+    - Bugman's Glow
+    - Mephiston Red
+    - Mounfang Brown
     - Abaddon Black
-- name: Citadel Metalics Paint Set
-  price: 8.00
+    - Ceramite White
+    - Zandri Dust
+    - Averland Sunset
+    - Balthasar Gold
+- name: Citadel Dry Paint Set
+  price: 55.00
   paints:
-    - Leadbelcher
-    - Retributor Armour
+    - Hexos Palesun
+    - Eldar Flesh
+    - Golgfag Brown
+    - Dawnstone
+    - Sigmarite
+    - Niblet Green
+    - Terminatus Stone
+    - Necron Compound
+    - Chronus Blue
+    - Astorath Red
+
