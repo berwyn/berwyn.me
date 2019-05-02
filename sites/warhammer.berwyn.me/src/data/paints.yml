@@ -1,12 +1,190 @@
 - name: Retributor Armour
   type: base
   price: 7.40
-  color: '#C39E81'
+  color: '#CB9320'
+  effect: metallic
 - name: Leadbelcher
   type: base
   price: 5.40
-  color: '#888D8F'
+  color: '#455051'
+  effect: metallic
 - name: Abaddon Black
   type: base
   price: 5.40
-  color: '#231F20'
+  color: '#000000'
+  effect:
+- name: Caledor Sky
+  type: base
+  price: 5.40
+  color: '#3A689B'
+  effect:
+- name: Caliban Green
+  type: base
+  price: 0.00
+  color: '#003B1E'
+  effect:
+- name: Mehpiston Red
+  type: base
+  price: 0.00
+  color: '#9B130B'
+  effect:
+- name: Khorne Red
+  type: base
+  price: 0.00
+  color: '#6B0E02'
+  effect:
+- name: Screamer Pink
+  type: base
+  price: 0.00
+  color: '#821A41'
+  effect:
+- name: Jokaero Orange
+  type: base
+  price: 0.00
+  color: '#E52D12'
+  effect:
+- name: Averland Sunset
+  type: base
+  price: 0.00
+  color: '#FBBA00'
+  effect:
+- name: XV-88
+  type: base
+  price: 0.00
+  color: '#7A4E1C'
+  effect:
+- name: Incubi Darkness
+  type: base
+  price: 0.00
+  color: '#0E4445'
+  effect:
+- name: Waaagh! Flesh
+  type: base
+  price: 0.00
+  color: '#295628'
+  effect:
+- name: Deathworld Forest
+  type: base
+  price: 0.00
+  color: '#686D2D'
+  effect:
+- name: Castellan Green
+  type: base
+  price: 0.00
+  color: '#3A4C21'
+  effect:
+- name: The Fang
+  type: base
+  price: 0.00
+  color: '#4A667B'
+  effect:
+- name: Macragge Blue
+  type: base
+  price: 0.00
+  color: '#193A79'
+  effect:
+- name: Kantor Blue
+  type: base
+  price: 0.00
+  color: '#0D244E'
+  effect:
+- name: Stegadon Scale Green
+  type: base
+  price: 0.00
+  color: '#014360'
+  effect:
+- name: Naggaroth Night
+  type: base
+  price: 0.00
+  color: '#443655'
+  effect:
+- name: Daemonette Hide
+  type: base
+  price: 0.00
+  color: '#746E8B'
+  effect:
+- name: Mournfang Brown
+  type: base
+  price: 0.00
+  color: '#681409'
+  effect:
+- name: Dryad Bark
+  type: base
+  price: 0.00
+  color: '#3B352E'
+  effect:
+- name: Rhinox Hide
+  type: base
+  price: 0.00
+  color: '#4E3433'
+  effect:
+- name: Steel Legion Drab
+  type: base
+  price: 0.00
+  color: '#685733'
+  effect:
+- name: Celestra Grey
+  type: base
+  price: 0.00
+  color: '#9BAEAE'
+  effect:
+- name: Zandri Dust
+  type: base
+  price: 0.00
+  color: '#A89757'
+  effect:
+- name: Rakarth Flesh
+  type: base
+  price: 0.00
+  color: '#ACA394'
+  effect:
+- name: Mechanicus Standard Grey
+  type: base
+  price: 0.00
+  color: '#454F50'
+  effect:
+- name: Balthasar Gold
+  type: base
+  price: 0.00
+  color: '#7A3E09'
+  effect: metallic
+- name: Screaming Bell
+  type: base
+  price: 0.00
+  color: '#AE430A'
+  effect: metallic
+- name: Warplock Bronze
+  type: base
+  price: 0.00
+  color: '#573A3A'
+  effect: metallic
+- name: Bugman's Glow
+  type: base
+  price: 0.00
+  color: '#8C5144'
+  effect: metallic
+- name: Death Guard Green
+  type: base
+  price: 0.00
+  color: '#737A51'
+  effect:
+- name: Ceramite White
+  type: base
+  price: 0.00
+  color: '#FFFFFF'
+  effect:
+- name: Thousand Sons Blue
+  type: base
+  price: 0.00
+  color: '#025573'
+  effect:
+- name: Ionrach Skin
+  type: base
+  price: 0.00
+  color: '#DDCCB9'
+  effect:
+- name: Ratskin Flesh
+  type: base
+  price: 0.00
+  color: '#B36D48'
+  effect:

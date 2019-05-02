@@ -61,16 +61,7 @@ class PaintOptimizer extends PureComponent {
 
     return (
       <PaintPanel>
-        <PaintList>
-          {data.paints.edges.map(({ node }) => (
-            <div
-              key={node.name}
-              css={{ '&:hover': { backgroundColor: 'rgba(0, 0, 0, .1)' } }}
-            >
-              <SelectPaintCard paint={node} />
-            </div>
-          ))}
-        </PaintList>
+        <PaintList>{this.renderPaints()}</PaintList>
         <section css={{ flex: 1 }}>
           <div css={{ padding: '1em' }}>
             <Card elevation={2}>
@@ -85,6 +76,17 @@ class PaintOptimizer extends PureComponent {
       </PaintPanel>
     );
   }
+
+  renderPaints = () => {
+    return this.props.data.paints.edges.map(({ node }) => (
+      <div
+        key={node.name}
+        css={{ '&:hover': { backgroundColor: 'rgba(0, 0, 0, .1)' } }}
+      >
+        <SelectPaintCard paint={node} />
+      </div>
+    ));
+  };
 }
 
 const ConnectedPaintOptimizer = connect(
