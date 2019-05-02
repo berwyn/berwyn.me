@@ -5,9 +5,14 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "@babel/plugin-proposal-optional-chaining": "^7.2.0",
+    "@babel/plugin-proposal-private-methods": "^7.4.4",
     "@emotion/core": "^10.0.10",
     "@emotion/styled": "^10.0.10",
-    "gatsby": "^2.3.34",
+    "babel-eslint": "^11.0.0-beta.0",
+    "babel-preset-gatsby": "^0.1.11",
+    "eslint": "^5.16.0",
+    "gatsby": "^2.3.35",
     "gatsby-image": "^2.0.41",
     "gatsby-plugin-emotion": "^4.0.6",
     "gatsby-plugin-manifest": "^2.0.29",
@@ -20,9 +25,11 @@
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-helmet": "^5.2.0",
+    "react-helmet": "^5.2.1",
     "react-redux": "^7.0.3",
-    "redux": "^4.0.1"
+    "redux": "^4.0.1",
+    "redux-saga": "^1.0.2",
+    "redux-thunk": "^2.3.0"
   },
   "devDependencies": {
     "prettier": "^1.17.0"

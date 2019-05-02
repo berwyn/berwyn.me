@@ -1,10 +1,14 @@
-import React from 'react';
+import React, { PureComponent } from 'react';
 import { graphql } from 'gatsby';
-
-import NextLayout from '../components/next-layout';
 import styled from '@emotion/styled';
+import { connect } from 'react-redux';
+
+import Card from '../components/card';
+import NextLayout from '../components/next-layout';
 import SelectPaintCard from '../containers/paints/select-paint-card';
 import SelectedPaintGrid from '../containers/paints/selected-paint-grid';
+import CalculatedPurchaseCandidateList from '../containers/paints/calculated-purchase-candidate-list';
+import { populatePaints, populateSets } from '../actions/populate';
 
 export const query = graphql`
   {
@@ -22,6 +26,7 @@ export const query = graphql`
         node {
           name
           price
+          paints
         }
       }
     }
@@ -41,9 +46,20 @@ const PaintList = styled.div`
   }
 `;
 
-export default ({ data }) => {
-  return (
-    <NextLayout>
+const Header = styled.h3``;
+
+class PaintOptimizer extends PureComponent {
+  componentWillMount() {
+    const { data, populatePaints, populateSets } = this.props;
+
+    populatePaints(data.paints.edges.map(edge => edge.node));
+    populateSets(data.sets.edges.map(edge => edge.node));
+  }
+
+  render() {
+    const { data } = this.props;
+
+    return (
       <PaintPanel>
         <PaintList>
           {data.paints.edges.map(({ node }) => (
@@ -55,10 +71,40 @@ export default ({ data }) => {
             </div>
           ))}
         </PaintList>
-        <div css={{ flex: 1 }}>
-          <SelectedPaintGrid />
-        </div>
+        <section css={{ flex: 1 }}>
+          <div css={{ padding: '1em' }}>
+            <Card elevation={2}>
+              <div css={{ padding: '1em' }}>
+                <Header>Selected Paints:</Header>
+                <SelectedPaintGrid />
+              </div>
+            </Card>
+          </div>
+          <CalculatedPurchaseCandidateList />
+        </section>
       </PaintPanel>
-    </NextLayout>
+    );
+  }
+}
+
+const ConnectedPaintOptimizer = connect(
+  (_, { data }) => ({ data }),
+  dispatch => ({
+    populatePaints(paints) {
+      dispatch(populatePaints(paints));
+    },
+    populateSets(sets) {
+      dispatch(populateSets(sets));
+    },
+  })
+)(PaintOptimizer);
+
+export default ({ data }) => {
+  return (
+    <>
+      <NextLayout>
+        <ConnectedPaintOptimizer data={data} />
+      </NextLayout>
+    </>
   );
 };

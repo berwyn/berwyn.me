@@ -8,7 +8,7 @@ const PaintCard = props => {
       <div
         css={{
           display: 'grid',
-          gridTemplateColumns: '1rem auto',
+          gridTemplateColumns: '1rem max-content',
           gridGap: '1rem',
           padding: '1rem',
         }}
