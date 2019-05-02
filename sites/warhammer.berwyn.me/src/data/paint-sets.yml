@@ -25,4 +25,191 @@
     - Necron Compound
     - Chronus Blue
     - Astorath Red
-
+- name: Citadel Shade Paint Set
+  price: 46.00
+  paints:
+    - Nuln Oil
+    - Carroburg Crimson
+    - Drakenhof Nightshade
+    - Biel-tan Green
+    - Casandora Yellow
+    - Agrax Earthshade
+    - Reikland Fleshshade
+    - Seraphim Sepia
+- name: Citadel Layer Paint Set
+  price: 98.95
+  paints:
+    - Eshin Grey
+    - Dawnstone
+    - Ironbreaker
+    - Runefang Steel
+    - Evil Sunz Scarlet
+    - Wild Rider Red
+    - Aldorf Guard Blue
+    - Calgar Blue
+    - Warboss Green
+    - Skarsnik Green
+    - Yriel Yellow
+    - Flash Gitz Yellow
+    - Skrag Brown
+    - Deathclaw Brown
+    - Gehenna's Gold
+    - Auric Armour Gold
+    - Cadian Fleshtone
+    - Kislev Flesh
+    - Ushabti Bone
+    - Screaming Skull
+- name: Nighthaunt + Paint Set
+  price: 40.00
+  paints:
+    - Celestra Grey
+    - Incubi Darkness
+    - Leadbelcher
+    - Rhinox Hide
+    - Nighthaunt Gloom
+    - Reikland Fleshshade
+- name: Death Guard + Paint Set
+  price: 40.00
+  paints:
+    - Agrax Earthshade
+    - Balthasar Gold
+    - Death Guard Green
+    - Leadbelcher
+    - Rakarth Flesh
+    - Armageddon Dust
+- name: Intercessors & Paint Set
+  price: 40.00
+  paints:
+    - Agrax Earthshade
+    - Armageddon Dust
+    - Balthasar Gold
+    - Macragge Blue
+    - Imperial Primer
+    - Bugman's Glow
+- name: Stormcast Eternals + Paint Set
+  price: 40.00
+  paints:
+    - Retributor Armour
+    - Abaddon Black
+    - Kantor Blue
+    - Reikland Fleshshade
+    - Rhinox Hide
+    - Rakarth Flesh
+- name: Stormcase Eternals Sacrosanct Chamber Paint Collection
+  price: 217.50
+  paints:
+    - Mephiston Red
+    - Carroburg Crimson
+    - Wild Rider Red
+    - Fire Dragon Bright
+    - Mechanicus Standard Grey
+    - Baneblade Brown
+    - Karak Stone
+    - Pallid Wych Flesh
+    - Retributor Armour
+    - Reikland Fleshshade
+    - Auric Armour Gold
+    - Liberator Gold
+    - Leadbelcher
+    - Nuln Oil
+    - Ironbreaker
+    - Stormhost Silver
+    - Abaddon Black
+    - Eshin Grey
+    - Dawnstone
+    - Administratum Grey
+    - Rakarth Flesh
+    - Seraphim Sepia
+    - White Scar
+    - Stegadon Scale Green
+    - Sotek Green
+    - Temple Guard Blue
+    - Baharroth Blue
+    - Kantor Blue
+    - Teclis Blue
+    - Lothern Blue
+    - Bugman’s Glow
+    - Cadian Fleshtone
+    - Flayed One Flesh
+    - Warplock Bronze
+    - Brass Scorpion
+    - Hashut Copper
+    - Khorne Red
+    - Tuskgor Fur
+    - Ushabti Bone
+- name: Nighthaunt Paint Collection
+  price: 184.50
+  paints:
+    - Dryad Bark
+    - Druchii Violet
+    - Doombull Brown
+    - Ushabti Bone
+    - Rhinox Hide
+    - Nuln Oil
+    - Gorthor Brown
+    - Screaming Skull
+    - Deepkin Flesh
+    - Nighthaunt Gloom
+    - Ionrach Skin
+    - White Scar
+    - Rakarth Flesh
+    - Seraphim Sepia
+    - Karak Stone
+    - Ceremite White
+    - Hexwraith Flame
+    - Moot Green
+    - Dorn Yellow
+    - Abaddon Black
+    - Stegadon Scale Green
+    - Thunderhawk Blue
+    - Leadbelcher
+    - Agrax Earthshade
+    - Ironbreaker
+    - Runefang Steel
+    - Warplock Bronze
+    - Brass Scorpion
+    - Hashut Copper
+    - Mechanicus Standard Grey
+    - Dawnstone
+    - Administratum Grey
+- name: Warhammer Age of Sigmar Paints & Tools Set
+  price: 50.00
+  paints:
+    - Retributor Armour
+    - Abaddon Black
+    - Armageddon Dust
+    - Kantor Blue
+    - Reikland Fleshshade
+    - White Scar
+    - Leadbelcher
+    - Mournfang Brown
+    - Celestra Grey
+    - Khorne Red
+    - Nighthaunt Gloom
+    - Rakarth Flesh
+    - Bugman’s Glow
+- name: Tempest of Souls & Paint
+  price: 150.00
+  paints:
+    - Retributor Armour
+    - Abaddon Black
+    - Armageddon Dust
+    - Kantor Blue
+    - Reikland Fleshshade
+    - White Scar
+    - Leadbelcher
+    - Mournfang Brown
+    - Celestra Grey
+    - Khorne Red
+    - Nighthaunt Gloom
+    - Rakarth Flesh
+    - Bugman’s Glow
+- name: 'Citadel Paints: Ultramarines'
+  price: 20.00
+  paints:
+    - Gehenna’s Gold
+    - Eshin Grey
+    - Runefang Steel
+    - Steel Legion Drab
+    - Calgar Blue
+    - Nuln Oil
