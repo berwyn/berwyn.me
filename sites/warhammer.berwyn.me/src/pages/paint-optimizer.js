@@ -1,4 +1,4 @@
-import React, { PureComponent } from 'react';
+import React, { Fragment, PureComponent } from 'react';
 import { graphql } from 'gatsby';
 import styled from '@emotion/styled';
 import { connect } from 'react-redux';
@@ -40,7 +40,7 @@ const PaintPanel = styled.div`
   flex: 1;
 `;
 
-const PaintList = styled.div`
+const PaintList = styled.section`
   border-right: 1px solid black;
   > :not(:last-child) {
     border-bottom: 1px solid black;
@@ -97,17 +97,17 @@ class PaintOptimizer extends PureComponent {
       }, {});
 
     return Object.keys(paints).map(type => (
-      <div key={`paint-type-${type}`}>
-        <ListHeader>{type}</ListHeader>
+      <Fragment key={`list-item-${type}`}>
+        <ListHeader key={`header-${type}`}>{type}</ListHeader>
         {paints[type].map(paint => (
           <div
-            type={paint.name}
+            key={`${type}-${paint.name}`}
             css={{ '&:hover': { backgroundColor: 'rgba(0, 0, 0, .1)' } }}
           >
             <SelectPaintCard paint={paint} />
           </div>
         ))}
-      </div>
+      </Fragment>
     ));
   };
 }
