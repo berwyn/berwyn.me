@@ -18,7 +18,13 @@ const PaintCard = props => {
           }
         }}
       >
-        <div css={{ backgroundColor: paint.color, width: '1rem' }} />
+        <div
+          css={{
+            backgroundColor: paint.color,
+            width: '1rem',
+            border: '1px solid rgba(0, 0, 0, .4)',
+          }}
+        />
         <div
           css={{
             display: 'flex',

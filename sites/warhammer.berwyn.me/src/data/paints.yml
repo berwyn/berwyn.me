@@ -266,3 +266,160 @@
   price: 9.40
   color: '#474225'
   effect: gloss
+
+# Dry
+- name: Tyrant Skull
+  type: dry
+  price: 5.40
+  color: '#D5CA85'
+  effect:
+- name: Ryza Rust
+  type: dry
+  price: 5.40
+  color: '#EB641E'
+  effect:
+- name: Sylvaneth Bark
+  type: dry
+  price: 5.40
+  color: '#5D503D'
+  effect:
+- name: Underhive Ash
+  type: dry
+  price: 5.40
+  color: '#C9C17E'
+  effect:
+- name: Terminatus Stone
+  type: dry
+  price: 5.40
+  color: '#D4BD81'
+  effect:
+- name: Kindleflame
+  type: dry
+  price: 5.40
+  color: '#F4A28A'
+  effect:
+- name: Astorath Red
+  type: dry
+  price: 5.40
+  color: '#AE2D22'
+  effect:
+- name: Changeling Pink
+  type: dry
+  price: 5.40
+  color: '#F4B7D3'
+  effect:
+- name: Hexos Palesun
+  type: dry
+  price: 5.40
+  color: '#FFF054'
+  effect:
+- name: Eldar Flesh
+  type: dry
+  price: 5.40
+  color: '#EEC585'
+  effect:
+- name: Hellion Green
+  type: dry
+  price: 5.40
+  color: '#90C4AA'
+  effect:
+- name: Niblet Green
+  type: dry
+  price: 5.40
+  color: '#4E8D27'
+  effect:
+- name: Nurgling Green
+  type: dry
+  price: 5.40
+  color: '#8FA15F'
+  effect:
+- name: Stormfang
+  type: dry
+  price: 5.40
+  color: '#6689AE'
+  effect:
+- name: Imrik Blue
+  type: dry
+  price: 5.40
+  color: '#058DC1'
+  effect:
+- name: Chronus Blue
+  type: dry
+  price: 5.40
+  color: '#5698D2'
+  effect:
+- name: Hoeth Blue
+  type: dry
+  price: 5.40
+  color: '#507EB4'
+  effect:
+- name: Skink Blue
+  type: dry
+  price: 5.40
+  color: '#64BFCE'
+  effect:
+- name: Lucius Lilac
+  type: dry
+  price: 5.40
+  color: '#C0A8D1'
+  effect:
+- name: Slaanesh Grey
+  type: dry
+  price: 5.40
+  color: '#958F9A'
+  effect:
+- name: Golgfag Brown
+  type: dry
+  price: 5.40
+  color: '#9A542E'
+  effect:
+- name: Verminlord Hide
+  type: dry
+  price: 5.40
+  color: '#873833'
+  effect:
+- name: Dawnstone
+  type: dry
+  price: 5.40
+  color: '#7A7D74'
+  effect:
+- name: Longbeard Grey
+  type: dry
+  price: 5.40
+  color: '#E6E3CF'
+  effect:
+- name: Praxeti White
+  type: dry
+  price: 5.40
+  color: '#FFFFFF'
+  effect:
+- name: Wrack White
+  type: dry
+  price: 5.40
+  color: '#DEDADA'
+  effect:
+- name: Sigmarite
+  type: dry
+  price: 5.40
+  color: '#D7AB59'
+  effect: metallic
+- name: Golden Griffon
+  type: dry
+  price: 5.40
+  color: '#AC8F47'
+  effect: metallic
+- name: Necron Compound
+  type: dry
+  price: 5.40
+  color: '#7C8386'
+  effect: metallic
+- name: Etherium Blue
+  type: dry
+  price: 5.40
+  color: '#B0C2D7'
+  effect:
+- name: Thunderhawk Blue
+  type: dry
+  price: 5.40
+  color: '#467379'
+  effect:
