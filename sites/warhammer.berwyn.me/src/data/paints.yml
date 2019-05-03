@@ -872,3 +872,137 @@
   color: '#00BF00'
   effect:
 #endregion
+
+#region Texture
+- name: Stirland Battlemire
+  type: texture
+  price: 9.40
+  color: '#482A00'
+  effect:
+- name: Astrogranite Debris
+  type: texture
+  price: 9.40
+  color: '#757679'
+  effect:
+- name: Martian Ironcrust
+  type: texture
+  price: 9.40
+  color: '#9F5241'
+  effect:
+- name: Stirland Mud
+  type: texture
+  price: 9.40
+  color: '#4B3000'
+  effect:
+- name: Armageddon Dunes
+  type: texture
+  price: 9.40
+  color: '#D2A808'
+  effect:
+- name: Agrellan Badland
+  type: texture
+  price: 9.40
+  color: '#917D6B'
+  effect:
+- name: Valhallan Blizzard
+  type: texture
+  price: 9.40
+  color: '#FFFFFF'
+  effect:
+- name: Martian Ironearth
+  type: texture
+  price: 9.40
+  color: '#A6533E'
+  effect:
+- name: Armageddon Dust
+  type: texture
+  price: 9.40
+  color: '#D7A300'
+  effect:
+- name: Astrogranite
+  type: texture
+  price: 9.40
+  color: '#797978'
+  effect:
+- name: Blackfire Earth
+  type: texture
+  price: 9.40
+  color: '#AC5613'
+  effect:
+- name: Lustrian Undergrowth
+  type: texture
+  price: 9.40
+  color: '#4A5A04'
+  effect:
+- name: Agrellan Earth
+  type: texture
+  price: 9.40
+  color: '#99816B'
+  effect:
+#endregion
+
+#region Edge
+- name: Fulgrim Pink
+  type: edge
+  price: 5.40
+  color: '#F4B7D3'
+  effect:
+- name: Lugganath Orange
+  type: edge
+  price: 5.40
+  color: '#F4A188'
+  effect:
+- name: Dorn Yellow
+  type: edge
+  price: 5.40
+  color: '#FFF054'
+  effect:
+- name: Baharroth Blue
+  type: edge
+  price: 5.40
+  color: '#64BFCE'
+  effect:
+- name: Gauss Blaster Green
+  type: edge
+  price: 5.40
+  color: '#90C4AA'
+  effect:
+- name: Blue Horror
+  type: edge
+  price: 5.40
+  color: '#B0C2D8'
+  effect:
+- name: Dechala Lilac
+  type: edge
+  price: 5.40
+  color: '#C0A8D0'
+  effect:
+- name: Krieg Khaki
+  type: edge
+  price: 5.40
+  color: '#C9C17E'
+  effect:
+#endregion
+
+#region Glaze
+- name: Bloodletter
+  type: glaze
+  price: 5.40
+  color: '#E30613'
+  effect:
+- name: Gulliman Blue
+  type: glaze
+  price: 5.40
+  color: '#007AC3'
+  effect:
+- name: Lamenters Yellow
+  type: glaze
+  price: 5.40
+  color: '#FFED00'
+  effect:
+- name: Waywatcher Green
+  type: glaze
+  price: 5.40
+  color: '#40AB35'
+  effect:
+#endregion
