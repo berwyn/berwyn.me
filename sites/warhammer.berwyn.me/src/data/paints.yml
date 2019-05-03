@@ -1,4 +1,4 @@
-# Base
+#region Base
 - name: Retributor Armour
   type: base
   price: 7.40
@@ -146,7 +146,7 @@
   effect:
 - name: Balthasar Gold
   type: base
-  price: 7.40
+  price: 5.00
   color: '#7A3E09'
   effect: metallic
 - name: Screaming Bell
@@ -189,8 +189,9 @@
   price: 5.40
   color: '#B36D48'
   effect:
+#endregion
 
-# Shade
+#region Shade
 - name: Nuln Oil Gloss
   type: shade
   price: 9.40
@@ -266,8 +267,9 @@
   price: 9.40
   color: '#474225'
   effect: gloss
+#endregion
 
-# Dry
+#region Dry
 - name: Tyrant Skull
   type: dry
   price: 5.40
@@ -423,3 +425,450 @@
   price: 5.40
   color: '#467379'
   effect:
+#endregion
+
+#region Layer
+- name: Evil Sunz Scarlet
+  type: layer
+  price: 5.40
+  color: '#BF1111'
+  effect:
+- name: Wild Rider Red
+  type: layer
+  price: 5.40
+  color: '#E12318'
+  effect:
+- name: Wazdakka Red
+  type: layer
+  price: 5.40
+  color: '#8D1207'
+  effect:
+- name: Pink Horror
+  type: layer
+  price: 5.40
+  color: '#96325C'
+  effect:
+- name: Emperor's Children
+  type: layer
+  price: 5.40
+  color: '#BD4074'
+  effect:
+- name: Troll Slayer Orange
+  type: layer
+  price: 5.40
+  color: '#EB641E'
+  effect:
+- name: Fire Dragon Bright
+  type: layer
+  price: 5.40
+  color: '#F0844B'
+  effect:
+- name: Yriel Yellow
+  type: layer
+  price: 5.40
+  color: '#FFD900'
+  effect:
+- name: Flash Gitz Yellow
+  type: layer
+  price: 5.40
+  color: '#FFED00'
+  effect:
+- name: Tau Light Ochre
+  type: layer
+  price: 5.40
+  color: '#C16F09'
+  effect:
+- name: Ungor Flesh
+  type: layer
+  price: 5.40
+  color: '#DBAC62'
+  effect:
+- name: Balor Brown
+  type: layer
+  price: 5.40
+  color: '#925E06'
+  effect:
+- name: Zamesi Desert
+  type: layer
+  price: 5.40
+  color: '#E0A407'
+  effect:
+- name: Kabalite Green
+  type: layer
+  price: 5.40
+  color: '#008560'
+  effect:
+- name: Sybarite Green
+  type: layer
+  price: 5.40
+  color: '#3AA063'
+  effect:
+- name: Warboss Green
+  type: layer
+  price: 5.40
+  color: '#3C7C54'
+  effect:
+- name: Skarsnik Green
+  type: layer
+  price: 5.40
+  color: '#58F67'
+  effect:
+- name: Elysian Green
+  type: layer
+  price: 5.40
+  color: '#81932F'
+  effect:
+- name: Ogryn Camo
+  type: layer
+  price: 5.40
+  color: '#A9AE40'
+  effect:
+- name: Straken Green
+  type: layer
+  price: 5.40
+  color: '#6F8515'
+  effect:
+- name: Loren Forest
+  type: layer
+  price: 5.40
+  color: '#5C7426'
+  effect:
+- name: Warpstone Glow
+  type: layer
+  price: 5.40
+  color: '#277227'
+  effect:
+- name: Moot Green
+  type: layer
+  price: 5.40
+  color: '#56AA2E'
+  effect:
+- name: Russ Grey
+  type: layer
+  price: 5.40
+  color: '#54758A'
+  effect:
+- name: Fenrisian Grey
+  type: layer
+  price: 5.40
+  color: '#789DBB'
+  effect:
+- name: Teclis Blue
+  type: layer
+  price: 5.40
+  color: '#397BBF'
+  effect:
+- name: Lothern Blue
+  type: layer
+  price: 5.40
+  color: '#3BA1D0'
+  effect:
+- name: Altdorf Guard Blue
+  type: layer
+  price: 5.40
+  color: '#2A4B9B'
+  effect:
+- name: Calgar Blue
+  type: layer
+  price: 5.40
+  color: '#456EB4'
+  effect:
+- name: Alaitoc Blue
+  type: layer
+  price: 5.40
+  color: '#305688'
+  effect:
+- name: Sotek Green
+  type: layer
+  price: 5.40
+  color: '#0E6875'
+  effect:
+- name: Temple Guard Blue
+  type: layer
+  price: 5.40
+  color: '#39998D'
+  effect:
+- name: Xereus Purple
+  type: layer
+  price: 5.40
+  color: '#4B225B'
+  effect:
+- name: Genestealer Purple
+  type: layer
+  price: 5.40
+  color: '#7C5BA3'
+  effect:
+- name: Warpfiend Grey
+  type: layer
+  price: 5.40
+  color: '#757179'
+  effect:
+- name: Skrag Brown
+  type: layer
+  price: 5.40
+  color: '#944B07'
+  effect:
+- name: Deathclaw Brown
+  type: layer
+  price: 5.40
+  color: '#B96A52'
+  effect:
+- name: Gorthor Brown
+  type: layer
+  price: 5.40
+  color: '#6E4F46'
+  effect:
+- name: Baneblade Brown
+  type: layer
+  price: 5.40
+  color: '#99816B'
+  effect:
+- name: Doombull Brown
+  type: layer
+  price: 5.40
+  color: '#5E0C0A'
+  effect:
+- name: Tuskgor Fur
+  type: layer
+  price: 5.40
+  color: '#8E3733'
+  effect:
+- name: Tallarn Sand
+  type: layer
+  price: 5.40
+  color: '#AA7D00'
+  effect:
+- name: Karak Stone
+  type: layer
+  price: 5.40
+  color: '#C1A068'
+  effect:
+- name: Eshin Grey
+  type: layer
+  price: 5.40
+  color: '#545658'
+  effect:
+- name: Skavenblight Dinge
+  type: layer
+  price: 5.40
+  color: '#4F4740'
+  effect:
+- name: Stormvermin Fur
+  type: layer
+  price: 5.40
+  color: '#7C7269'
+  effect:
+- name: Dark Reaper
+  type: layer
+  price: 5.40
+  color: '#425553'
+  effect:
+- name: Thunderhawk Blue
+  type: layer
+  price: 5.40
+  color: '#467379'
+  effect:
+- name: Ulthuan Grey
+  type: layer
+  price: 5.40
+  color: '#D3E3DE'
+  effect:
+- name: White Scar
+  type: layer
+  price: 5.40
+  color: '#FFFFFF'
+  effect:
+- name: Ushabti Bone
+  type: layer
+  price: 5.40
+  color: '#C5C180'
+  effect:
+- name: Screaming Skull
+  type: layer
+  price: 5.40
+  color: '#DAD8A6'
+  effect:
+- name: Pallid Wych Flesh
+  type: layer
+  price: 5.40
+  color: '#D6D5C4'
+  effect:
+- name: Administratum Grey
+  type: layer
+  price: 5.40
+  color: '#9DA099'
+  effect:
+- name: Auric Armour Gold
+  type: layer
+  price: 5.40
+  color: '#E0A508'
+  effect: metallic
+- name: Liberator Gold
+  type: layer
+  price: 7.40
+  color: '#B98D3A'
+  effect: metallic
+- name: Gehenna's Gold
+  type: layer
+  price: 5.40
+  color: '#C07009'
+  effect: metallic
+- name: Hashut Copper
+  type: layer
+  price: 5.00
+  color: '#A4520F'
+  effect: metallic
+- name: Sycorax Bronze
+  type: layer
+  price: 5.40
+  color: '#B09572'
+  effect: metallic
+- name: Brass Scorpion
+  type: layer
+  price: 5.40
+  color: '#904F09'
+  effect: metallic
+- name: Runelord Brass
+  type: layer
+  price: 5.00
+  color: '#B4A899'
+  effect: metallic
+- name: Ironbreaker
+  type: layer
+  price: 5.40
+  color: '#7C8386'
+  effect: metallic
+- name: Runefang Steel
+  type: layer
+  price: 5.40
+  color: '#A8B2B8'
+  effect: metallic
+- name: Stormhost Silver
+  type: layer
+  price: 7.40
+  color: '#ABB9BE'
+  effect: metallic
+- name: Cadian Fleshtone
+  type: layer
+  price: 5.40
+  color: '#CB7853'
+  effect:
+- name: Kislev Flesh
+  type: layer
+  price: 5.40
+  color: '#C9A073'
+  effect:
+- name: Flayed One Flesh
+  type: layer
+  price: 5.40
+  color: '#E8C087'
+  effect:
+- name: Dawnstone
+  type: layer
+  price: 5.40
+  color: '#7A7D74'
+  effect:
+- name: Ahriman Blue
+  type: layer
+  price: 5.40
+  color: '#007C8f'
+  effect:
+- name: Squig Orange
+  type: layer
+  price: 5.40
+  color: '#AF4D3E'
+  effect:
+- name: Slaanesh Grey
+  type: layer
+  price: 5.40
+  color: '#958F9A'
+  effect:
+- name: Nurgling Green
+  type: layer
+  price: 5.40
+  color: '#8FA15F'
+  effect:
+- name: Deepkin Flesh
+  type: layer
+  price: 5.40
+  color: '#DEDED2'
+  effect:
+- name: Bestigor Flesh
+  type: layer
+  price: 5.40
+  color: '#D68C50'
+  effect:
+- name: Fulgurite Copper
+  type: layer
+  price: 7.40
+  color: '#E0A861'
+  effect: metallic
+- name: Skullcrusher Brass
+  type: layer
+  price: 7.40
+  color: '#E9A84C'
+  effect: metallic
+- name: Hoeth Blue
+  type: layer
+  price: 5.40
+  color: '#507EB4'
+  effect:
+#endregion
+
+#region Technical
+- name: Blood for the Blood God
+  type: technical
+  price: 5.40
+  color: '#670D0E'
+  effect:
+- name: Nurgles Rot
+  type: technical
+  price: 5.40
+  color: '#A48C22'
+  effect:
+- name: Nihilakh Oxide
+  type: technical
+  price: 5.40
+  color: '#6DB69E'
+  effect:
+- name: Hexwraith Flame
+  type: technical
+  price: 9.40
+  color: '#3D8840'
+  effect:
+- name: Nighthaunt Gloom
+  type: technical
+  price: 9.40
+  color: '#466A78'
+  effect:
+- name: "'Ardcoat"
+  type: technical
+  price: 5.40
+  color: '#FFFFFF'
+  effect:
+- name: Lahmian Medium
+  type: technical
+  price: 5.40
+  color: '#FFFFFF'
+  effect:
+- name: Soulstone Blue
+  type: technical
+  price: 5.40
+  color: '#004BF9'
+  effect:
+- name: Spiritstone Red
+  type: technical
+  price: 5.40
+  color: '#FF512D'
+  effect:
+- name: Typhus Corrosion
+  type: technical
+  price: 5.40
+  color: '#453C2B'
+  effect:
+- name: Waystone Green
+  type: technical
+  price: 5.40
+  color: '#00BF00'
+  effect:
+#endregion
