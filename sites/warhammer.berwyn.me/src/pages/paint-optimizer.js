@@ -18,6 +18,7 @@ export const query = graphql`
           name
           price
           color
+          type
         }
       }
     }
@@ -48,6 +49,15 @@ const PaintList = styled.div`
 
 const Header = styled.h3``;
 
+const ListHeader = styled.h3`
+  background-color: black;
+  color: rgba(255, 255, 255, 0.8);
+  text-transform: capitalize;
+  padding: 1em;
+  position: sticky;
+  top: 0;
+`;
+
 class PaintOptimizer extends PureComponent {
   componentWillMount() {
     const { data, populatePaints, populateSets } = this.props;
@@ -57,8 +67,6 @@ class PaintOptimizer extends PureComponent {
   }
 
   render() {
-    const { data } = this.props;
-
     return (
       <PaintPanel>
         <PaintList>{this.renderPaints()}</PaintList>
@@ -78,12 +86,27 @@ class PaintOptimizer extends PureComponent {
   }
 
   renderPaints = () => {
-    return this.props.data.paints.edges.map(({ node }) => (
-      <div
-        key={node.name}
-        css={{ '&:hover': { backgroundColor: 'rgba(0, 0, 0, .1)' } }}
-      >
-        <SelectPaintCard paint={node} />
+    const paints = this.props.data.paints.edges
+      .map(edge => edge.node)
+      .reduce((acc, cur) => {
+        const arr = acc[cur.type] || [];
+        arr.push(cur);
+        acc[cur.type] = arr;
+
+        return acc;
+      }, {});
+
+    return Object.keys(paints).map(type => (
+      <div key={`paint-type-${type}`}>
+        <ListHeader>{type}</ListHeader>
+        {paints[type].map(paint => (
+          <div
+            type={paint.name}
+            css={{ '&:hover': { backgroundColor: 'rgba(0, 0, 0, .1)' } }}
+          >
+            <SelectPaintCard paint={paint} />
+          </div>
+        ))}
       </div>
     ));
   };

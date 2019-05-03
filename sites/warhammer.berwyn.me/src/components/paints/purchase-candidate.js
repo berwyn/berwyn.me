@@ -9,6 +9,7 @@ const Tagline = styled.h4``;
 const FlowLine = styled.div`
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 `;
 
 const PurchaseCandidate = ({ candidate }) => {

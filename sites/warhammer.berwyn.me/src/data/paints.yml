@@ -1,3 +1,4 @@
+# Base
 - name: Retributor Armour
   type: base
   price: 7.40
@@ -188,3 +189,80 @@
   price: 5.40
   color: '#B36D48'
   effect:
+
+# Shade
+- name: Nuln Oil Gloss
+  type: shade
+  price: 9.40
+  color: '#000000'
+  effect: gloss
+- name: Agrax Earthshade
+  type: shade
+  price: 9.40
+  color: '#474225'
+  effect:
+- name: Casandora Yellow
+  type: shade
+  price: 9.40
+  color: '#FDC600'
+  effect:
+- name: Seraphim Sepia
+  type: shade
+  price: 9.40
+  color: '#CE691D'
+  effect:
+- name: Athonian Camoshade
+  type: shade
+  price: 9.40
+  color: '#5C7A13'
+  effect:
+- name: Carroburg Crimson
+  type: shade
+  price: 9.40
+  color: '#A60961'
+  effect:
+- name: Fuegan Orange
+  type: shade
+  price: 9.40
+  color: '#B75E19'
+  effect:
+- name: Coelia Greenshade
+  type: shade
+  price: 9.40
+  color: '#006E65'
+  effect:
+- name: Biel-Tan Green
+  type: shade
+  price: 9.40
+  color: '#008742'
+  effect:
+- name: Nuln Oil
+  type: shade
+  price: 9.40
+  color: '#000000'
+  effect:
+- name: Drakenhof Nightshade
+  type: shade
+  price: 9.40
+  color: '#075396'
+  effect:
+- name: Druchii Violet
+  type: shade
+  price: 9.40
+  color: '#6A2073'
+  effect:
+- name: Reikland Fleshshade
+  type: shade
+  price: 9.40
+  color: '#AF2409'
+  effect:
+- name: Reikland Fleshshade Gloss
+  type: shade
+  price: 9.40
+  color: '#AF2409'
+  effect: gloss
+- name: Agrax Earthshade Gloss
+  type: shade
+  price: 9.40
+  color: '#474225'
+  effect: gloss

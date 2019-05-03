@@ -10,7 +10,6 @@ export function* calculatePurchaseCandidates(action) {
   const state = yield select();
   yield put(addPurchaseCandidate({ paints: state.selectedPaints, sets: [] }));
 
-  debugger;
   const completeSets = state.sets.filter(set =>
     set.paints.every(paint =>
       state.selectedPaints.map(paint => paint.name).includes(paint)
