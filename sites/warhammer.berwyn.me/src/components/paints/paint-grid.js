@@ -10,17 +10,21 @@ const Wrapper = styled.div`
   grid-gap: 1em;
 `;
 
-const PaintGrid = ({ paints }) => (
-  <>
-    <Wrapper>
-      {paints.map(paint => (
-        <div key={paint.name}>
-          <PaintCard paint={paint} />
-        </div>
-      ))}
-    </Wrapper>
-  </>
-);
+const PaintGrid = ({ paints, itemComponent }) => {
+  const ItemComponent = itemComponent || PaintCard;
+
+  return (
+    <>
+      <Wrapper>
+        {paints.map(paint => (
+          <div key={paint.name}>
+            <ItemComponent paint={paint} />
+          </div>
+        ))}
+      </Wrapper>
+    </>
+  );
+};
 
 PaintGrid.propTypes = {
   paints: PropTypes.arrayOf(
@@ -30,10 +34,12 @@ PaintGrid.propTypes = {
       color: PropTypes.string.isRequired,
     }).isRequired
   ).isRequired,
+  itemComponent: PropTypes.elementType,
 };
 
 PaintGrid.defaultProps = {
   paints: [],
+  itemComponent: PaintCard,
 };
 
 export default PaintGrid;

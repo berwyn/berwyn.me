@@ -1,10 +1,12 @@
 import { connect } from 'react-redux';
 
 import PaintGrid from '../../components/paints/paint-grid';
+import DeselectingPaintCard from './deselecting-paint-card';
 
 const mapStateToProps = state => {
   return {
     paints: state.selectedPaints,
+    itemComponent: DeselectingPaintCard,
   };
 };
 

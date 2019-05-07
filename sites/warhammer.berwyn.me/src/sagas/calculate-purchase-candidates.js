@@ -8,6 +8,11 @@ import {
 export function* calculatePurchaseCandidates(action) {
   yield put(clearPurchaseCandidates());
   const state = yield select();
+
+  if (state.selectedPaints.length === 0) {
+    return;
+  }
+
   yield put(addPurchaseCandidate({ paints: state.selectedPaints, sets: [] }));
 
   const completeSets = state.sets.filter(set =>
